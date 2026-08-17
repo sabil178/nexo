@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NEXO — Les bons deals</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+
+    <a class="logo" href="#">
+      NEXO<span>.</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#deals">Pépites</a>
+      <a href="#categories">Catégories</a>
+      <a href="#about">À propos</a>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          NEXO · LES BONS DEALS
+        </p>
+
+        <h1>
+          Les bonnes offres.<br>
+          <span>Au bon moment.</span>
+        </h1>
+
+        <p class="hero-text">
+          Les vraies pépites, réunies au même endroit.
+          Simplement.
+        </p>
+
+        <div class="search-box">
+
+          <span>⌕</span>
+
+          <input
+            id="search"
+            type="search"
+            placeholder="Rechercher un produit ou une marque..."
+          >
+
+        </div>
+
+      </div>
+
+
+      <!-- DEAL DU MOMENT -->
+
+      <div class="hero-deal">
+
+        <div class="deal-label">
+          PÉPITE DU MOMENT
+        </div>
+
+        <div class="hero-product-image">
+
+          <img
+            src="images/rochas.jpg"
+            alt="Rochas Girl Life"
+          >
+
+        </div>
+
+        <div class="hero-product-info">
+
+          <p class="category-label">
+            PARFUMS
+          </p>
+
+          <h2>
+            Rochas Girl Life
+          </h2>
+
+          <p>
+            Coffret Eau de Parfum
+          </p>
+
+          <div class="hero-price">
+
+            <del>140 €</del>
+
+            <strong>24,95 €</strong>
+
+            <span>-82%</span>
+
+          </div>
+
+          <div class="deal-score">
+            Deal Score <b>96/100</b>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PRODUITS -->
+
+    <section id="deals" class="section">
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="eyebrow">
+            LES MEILLEURES OFFRES
+          </p>
+
+          <h2>
+            Les pépites
+          </h2>
+
+        </div>
+
+        <button id="showAll">
+          Toutes les offres →
+        </button>
+
+      </div>
+
+
+      <div id="products" class="products"></div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section id="categories" class="section">
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="eyebrow">
+            EXPLORE NEXO
+          </p>
+
+          <h2>
+            Catégories
+          </h2>
+
+        </div>
+
+      </div>
+
+
+      <div class="categories">
+
+
+        <button data-category="Parfums">
+
+          <span class="category-icon">
+            ✦
+          </span>
+
+          <strong>
+            Parfums
+          </strong>
+
+          <small>
+            Les meilleures réductions
+          </small>
+
+        </button>
+
+
+        <button data-category="Montres">
+
+          <span class="category-icon">
+            ⌚
+          </span>
+
+          <strong>
+            Montres
+          </strong>
+
+          <small>
+            Les bons plans du moment
+          </small>
+
+        </button>
+
+
+        <button data-category="Mode">
+
+          <span class="category-icon">
+            ◈
+          </span>
+
+          <strong>
+            Mode & sneakers
+          </strong>
+
+          <small>
+            Des prix qui valent le détour
+          </small>
+
+        </button>
+
+
+        <button
+          class="category-dark"
+          data-category="all"
+        >
+
+          <span class="category-icon">
+            +
+          </span>
+
+          <strong>
+            Toutes les pépites
+          </strong>
+
+          <small>
+            Voir toutes les offres
+          </small>
+
+        </button>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- A PROPOS -->
+
+    <section id="about" class="section about">
+
+      <div class="about-title">
+
+        <p class="eyebrow">
+          DERRIÈRE NEXO
+        </p>
+
+        <h2>
+          Pas juste une promo.<br>
+          <span>Une vraie pépite.</span>
+        </h2>
+
+      </div>
+
+
+      <div class="about-content">
+
+
+        <div class="creator">
+
+          <span class="creator-label">
+            CRÉÉ PAR
+          </span>
+
+          <h3>
+            Sabil
+          </h3>
+
+          <p>
+            NEXO est un projet pensé pour réunir
+            les offres qui valent vraiment le détour,
+            sans compliquer la recherche.
+          </p>
+
+        </div>
+
+
+        <div class="about-points">
+
+
+          <div class="about-point">
+
+            <span>
+              01
+            </span>
+
+            <div>
+
+              <strong>
+                Des offres intéressantes
+              </strong>
+
+              <p>
+                On met en avant les réductions
+                qui méritent vraiment ton attention.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="about-point">
+
+            <span>
+              02
+            </span>
+
+            <div>
+
+              <strong>
+                Deal Score
+              </strong>
+
+              <p>
+                Un score simple pour repérer
+                rapidement les meilleures pépites.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="about-point">
+
+            <span>
+              03
+            </span>
+
+            <div>
+
+              <strong>
+                Simple et calme
+              </strong>
+
+              <p>
+                Pas de surcharge. Juste les produits
+                et les offres qui comptent.
+              </p>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-logo">
+      NEXO<span>.</span>
+    </div>
+
+    <p>
+      Les bons deals, au bon moment.
+    </p>
+
+    <div class="footer-links">
+
+      <a href="#about">
+        À propos
+      </a>
+
+      <a href="#deals">
+        Pépites
+      </a>
+
+      <a href="#categories">
+        Catégories
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
